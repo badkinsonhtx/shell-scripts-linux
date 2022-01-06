@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd /home/bart_simp/TBomb/
+
+bash TBomb.sh
+
+

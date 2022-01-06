@@ -1,0 +1,9 @@
+#! /bin/bash
+
+adbstop
+
+adbstart
+
+sleep 3
+
+adb shell settings put global op_voice_recording_supported_by_mcc 1

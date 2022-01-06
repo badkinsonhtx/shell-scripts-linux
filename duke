@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /home/bart_simp/.wine/drive_c/Program\ Files\ \(x86\)/Devolver\ Digital/Duke\ Nukem\ 3D\ Megaton\ Edition/
+
+wine DN3DLauncher.exe
+
+

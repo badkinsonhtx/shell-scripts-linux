@@ -1,0 +1,17 @@
+#! /bin/bash
+
+sudo airmon-ng stop wlan1mon
+
+manmo
+
+s
+
+sleep 5
+
+sudo airmon-ng stop wlan0mon
+
+iwconfig
+
+echo "You are back in managed mode"
+
+

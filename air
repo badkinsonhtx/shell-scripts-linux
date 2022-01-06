@@ -1,0 +1,5 @@
+#! /bin/bash
+
+sudo airmon-ng start wlx00c0caa7eaf1
+
+

@@ -1,0 +1,3 @@
+#! /bin/bash
+
+sudo besside-ng -b D8:97:BA:C4:5A:38 wlan0mon

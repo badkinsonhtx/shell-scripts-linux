@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cd /home/bart_simp/eclipse-workspace/EthereumCalculator/bin/
+
+java EthereumCalculator
+

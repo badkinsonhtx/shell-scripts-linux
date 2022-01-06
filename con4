@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd /home/bart_simp/Connect4-Python
+
+python3 connect4_with_ai.py
+
+

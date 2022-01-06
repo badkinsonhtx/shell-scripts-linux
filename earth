@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd /opt/google/earth/pro/
+
+./google-earth-pro
+
+

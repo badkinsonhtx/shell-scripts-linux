@@ -1,0 +1,16 @@
+#! /usr/bin/bash
+
+adb kill-server
+
+adb devices
+
+adb tcpip 5555
+
+adb connect 10.0.0.167:5555
+
+sleep 3
+
+adb connect 10.0.0.167:5555
+
+adb devices
+

@@ -1,0 +1,33 @@
+#! /bin/bash
+
+cd /home/bart_simp/OnePlus_6/9.0.9-OnePlus6Oxygen_22_OTA_034_all_1909112343_dd26-FASTBOOT/images/
+
+sudo adb devices
+
+sleep 5
+
+adb push abl.img /sdcard/abl.img
+adb shell dd if=/sdcard/abl.img of=/dev/block/bootdevice/by-name/abl_a
+adb shell dd if=/sdcard/abl.img of=/dev/block/bootdevice/by-name/abl_b
+adb push cmnlib.img /sdcard/cmnlib.img
+adb shell dd if=/sdcard/cmnlib.img of=/dev/block/bootdevice/by-name/cmnlib_a
+adb shell dd if=/sdcard/cmnlib.img of=/dev/block/bootdevice/by-name/cmnlib_b
+adb push cmnlib64.img /sdcard/cmnlib64.img
+adb shell dd if=/sdcard/cmnlib64.img of=/dev/block/bootdevice/by-name/cmnlib64_a
+adb shell dd if=/sdcard/cmnlib64.img of=/dev/block/bootdevice/by-name/cmnlib64_b
+adb push devcfg.img /sdcard/devcfg.img
+adb shell dd if=/sdcard/devcfg.img of=/dev/block/bootdevice/by-name/devcfg_a
+adb shell dd if=/sdcard/devcfg.img of=/dev/block/bootdevice/by-name/devcfg_b
+adb push hyp.img /sdcard/hyp.img
+adb shell dd if=/sdcard/hyp.img of=/dev/block/bootdevice/by-name/hyp_a
+adb shell dd if=/sdcard/hyp.img of=/dev/block/bootdevice/by-name/hyp_b
+adb push keymaster.img /sdcard/keymaster.img
+adb shell dd if=/sdcard/keymaster.img of=/dev/block/bootdevice/by-name/keymaster_a
+adb shell dd if=/sdcard/keymaster.img of=/dev/block/bootdevice/by-name/keymaster_b
+adb push xbl.img /sdcard/xbl.img
+adb shell dd if=/sdcard/xbl.img of=/dev/block/bootdevice/by-name/xbl_a
+adb shell dd if=/sdcard/xbl.img of=/dev/block/bootdevice/by-name/xbl_b
+adb push xbl_config.img /sdcard/xbl_config.img
+adb shell dd if=/sdcard/xbl_config.img of=/dev/block/bootdevice/by-name/xbl_config_a
+adb shell dd if=/sdcard/xbl_config.img of=/dev/block/bootdevice/by-name/xbl_config_b
+

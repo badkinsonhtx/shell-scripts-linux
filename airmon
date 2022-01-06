@@ -1,0 +1,23 @@
+#! /bin/bash
+
+#This script just puts adaptor into monitor mode and kills interfering process
+
+sudo airmon-ng check kill
+
+sudo airmon-ng check
+
+sudo airmon-ng check kill
+
+sudo airmon-ng check
+
+sudo airmon-ng start wlx00c0caa7eaf1 && monmo
+
+sleep 2
+
+sudo ip link set wlan0mon up
+
+iwconfig
+
+echo "You are now in monitor mode"
+
+

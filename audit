@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd /usr/local/lynis/
+
+sudo ./lynis audit system
+
+
