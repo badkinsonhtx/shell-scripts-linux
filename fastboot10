@@ -1,0 +1,35 @@
+#! /bin/bash 
+
+cd /home/bart_simp/OnePlus_6/10.3.6-OnePlus6Oxygen_22.J.48_OTA_048_all_2010042239_c0c1fee2ee-FASTBOOT/images/
+
+sudo fastboot flash aop_a aop.img
+sudo fastboot flash aop_b aop.img
+sudo fastboot flash bluetooth_a bluetooth.img
+sudo fastboot flash bluetooth_b bluetooth.img
+sudo fastboot flash boot_a boot.img
+sudo fastboot flash boot_b boot.img
+sudo fastboot flash dsp_a dsp.img
+sudo fastboot flash dsp_b dsp.img
+sudo fastboot flash dtbo_a dtbo.img
+sudo fastboot flash dtbo_b dtbo.img
+sudo fastboot flash fw_4j1ed_a fw_4j1ed.img
+sudo fastboot flash fw_4j1ed_b fw_4j1ed.img
+sudo fastboot flash fw_4u1ea_a fw_4u1ea.img
+sudo fastboot flash fw_4u1ea_b fw_4u1ea.img
+sudo fastboot flash modem_a modem.img
+sudo fastboot flash modem_b modem.img
+sudo fastboot flash oem_stanvbk oem_stanvbk.img
+sudo fastboot flash qupfw_a qupfw.img
+sudo fastboot flash qupfw_b qupfw.img
+sudo fastboot flash storsec_a storsec.img
+sudo fastboot flash storsec_b storsec.img
+sudo fastboot flash system_a system.img
+sudo fastboot flash system_b system.img
+sudo fastboot flash vbmeta_a vbmeta.img
+sudo fastboot flash vbmeta_b vbmeta.img
+sudo fastboot flash vendor_a vendor.img
+sudo fastboot flash vendor_b vendor.img
+sudo fastboot flash LOGO_a LOGO.img
+sudo fastboot flash LOGO_b LOGO.img
+
+

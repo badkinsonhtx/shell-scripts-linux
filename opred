@@ -1,0 +1,9 @@
+#! /bin/bash
+
+adb devices
+
+sleep 10
+
+adb reboot "dm-verity enforcing"
+
+

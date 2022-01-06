@@ -1,0 +1,3 @@
+#! /bin/bash
+
+sudo ssh-keygen -f "/root/.ssh/known_hosts" -R "[10.0.0.167]:8022"

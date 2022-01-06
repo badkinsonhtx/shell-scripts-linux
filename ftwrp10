@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+
+cd /home/bart_simp/OnePlus_6/
+
+sudo fastboot flash boot TWRP-3.5.2-enchilada-Nebrassy-2.img

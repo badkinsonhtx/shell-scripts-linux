@@ -1,0 +1,9 @@
+#! /bin/bash
+
+adb devices
+
+cd /home/bart_simp/OnePlus_6/
+
+sudo adb sideload Magisk-v21.4.zip
+
+

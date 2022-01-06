@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#simple script to enable mon mode on wifi adapter
+
+sudo ip link set wlx00c0caa7eaf1 down
+sudo iw wlx00c0caa7eaf1 set monitor control
+sudo ip link set wlx00c0caa7eaf1 up
+
+

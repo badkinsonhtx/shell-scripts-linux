@@ -1,0 +1,22 @@
+#! /bin/bash
+
+cd /home/bart_simp/OnePlus_6/fastboot/9.0.9-OnePlus6Oxygen_22_OTA_034_all_1909112343_dd26-FASTBOOT/images/
+
+sudo fastboot boot_a aop.img
+sudo fastboot boot_b aop.img
+sudo fastboot boot bluetooth.img
+sudo fastboot boot boot.img
+sudo fastboot boot dsp.img
+sudo fastboot boot dtbo.img
+sudo fastboot boot fw_4j1ed.img
+sudo fastboot boot fw_4u1ea.img
+sudo fastboot boot modem.img
+sudo fastboot boot oem_stanvbk.img
+sudo fastboot boot qupfw.img
+sudo fastboot boot storsec.img
+sudo fastboot boot system.img
+sudo fastboot boot vbmeta.img
+sudo fastboot boot vendor.img
+sudo fastboot boot LOGO.img
+
+

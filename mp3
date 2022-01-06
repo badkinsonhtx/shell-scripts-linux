@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cd /home/bart_simp/Music/
+
+youtube-dl --extract-audio --audio-format mp3 "$1" --cookies /home/bart_simp/Downloads/cookies.txt/cookies.txt
+

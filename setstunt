@@ -1,0 +1,11 @@
+#!/bin/bash
+
+wine /media/bart_simp/Sle/setup/SETUP.EXE
+
+sleep 3   
+
+stunt
+
+
+
+

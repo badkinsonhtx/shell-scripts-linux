@@ -1,0 +1,4 @@
+#! /bin/bash
+
+env WINEPREFIX="/home/bart_simp/.wine" wine C:\\windows\\command\\start.exe /Unix /home/bart_simp/.wine/dosdevices/c:/users/Public/Desktop/RollerCoaster\ Tycoon\ Deluxe.lnk
+

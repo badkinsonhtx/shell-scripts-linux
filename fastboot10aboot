@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd /home/bart_simp/OnePlus_6/10.3.5-OnePlus6Oxygen_22_OTA_047_all_2007191515_d9e52461-FASTBOOT/images/
+
+sudo fastboot flash boot_a boot.img
+
+

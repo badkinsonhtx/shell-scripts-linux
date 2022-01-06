@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cd /home/bart_simp/OnePlus_6/
+
+sudo fastboot boot twrp-3.4.0-3-enchilada.img
+

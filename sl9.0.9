@@ -1,0 +1,11 @@
+#! /bin/bash
+
+echo "make sure adb sideload from the avanced tab in twrp is swiped and ready"
+
+sudo adb devices
+
+sleep 5
+
+cd /home/bart_simp/OnePlus_6/
+
+sudo adb sideload OnePlus6Oxygen_22_OTA_034_all_1909112343_31f86cec5f8d4c7b.zip

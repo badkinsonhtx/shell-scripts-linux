@@ -1,0 +1,6 @@
+#! /bin/bash
+
+mate-session-save --logout-dialog
+
+
+

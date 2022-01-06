@@ -1,0 +1,11 @@
+#! /bin/bash 
+
+cd /var/log/
+
+tail syslog 
+
+read -p "Press any key to continue... " -n1 -s
+
+cat syslog | less
+
+

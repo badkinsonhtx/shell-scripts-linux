@@ -1,0 +1,6 @@
+#! /bin/bash
+
+enssh
+
+ssh -p22 bart@10.0.0.75
+

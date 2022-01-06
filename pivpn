@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+
+ssh -p2200 bart_pivpn@10.0.0.74
+

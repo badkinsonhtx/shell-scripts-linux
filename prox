@@ -1,0 +1,13 @@
+#! /bin/bash
+
+sudo service tor stop
+
+sleep3
+
+sudo service tor start
+
+sleep3
+
+proxychains firefox --private-window www.duckduckgo.com
+
+

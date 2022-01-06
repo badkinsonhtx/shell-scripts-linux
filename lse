@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cd ~/linux-smart-enumeration/
+
+./lse.sh -l1
+

@@ -1,0 +1,6 @@
+#! /bin/bash
+
+sudo nmap -sP 73.55.186.22
+
+
+

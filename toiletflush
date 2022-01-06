@@ -1,0 +1,21 @@
+#! /bin/bash
+
+#
+#                                                        
+#   mm   mmmmm  mmmmm   mmmm  mmmm   m    m m    m mmmmm 
+#   ##     #    #   "# m"  "m #   "m #    # ##  ## #   "#
+#  #  #    #    #mmmm" #    # #    # #    # # ## # #mmm#"
+#  #mm#    #    #   "m #    # #    # #    # # "" # #     
+# #    # mm#mm  #    "  #mm#  #mmm"  "mmmm" #    # #     
+#
+#
+
+airmon
+
+echo "AIRODUMP-NG" | toilet && sleep 3
+
+sudo airodump-ng wlan0mon
+
+
+                                                        
+                                                        

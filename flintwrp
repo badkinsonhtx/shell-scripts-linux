@@ -1,0 +1,8 @@
+#! /bin/bash
+
+cd /home/bart_simp/OnePlus_6/
+
+sudo fastboot flash boot lineage-18.1-20210601-recovery-enchilada.img
+
+
+

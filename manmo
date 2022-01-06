@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#simple script to return wifi adaptor to type managed
+
+sudo ip link set wlx00c0caa7eaf1 down
+sudo iw wlx00c0caa7eaf1 set type managed
+sudo ip link set wlx00c0caa7eaf1 up
+
+

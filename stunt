@@ -1,0 +1,12 @@
+#! /bin/bash
+
+export MESA_GL_VERSION_OVERRIDE=4.4
+
+rm -r /home/bart_simp/.wine/drive_c/Program\ Files/Stunt\ Track\ Driver/saves/
+
+cp -r /home/bart_simp/.wine/drive_c/Program\ Files/Stunt_Track_Driver/saves/ /home/bart_simp/.wine/drive_c/Program\ Files/Stunt\ Track\ Driver/
+
+cd /home/bart_simp/.wine/drive_c/Program\ Files/Stunt\ Track\ Driver/
+
+wine stunt.exe
+

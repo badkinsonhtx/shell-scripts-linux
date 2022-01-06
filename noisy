@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+
+source ~/dev/Python/Noisy/venv/bin/activate
+
+python ~/dev/Python/Noisy/noisy.py --config ~/dev/Python/Noisy/config.json

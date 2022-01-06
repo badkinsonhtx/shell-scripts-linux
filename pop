@@ -1,0 +1,9 @@
+#! /bin/bash
+
+echo "Its PopCorn Time Bitch"
+
+cd /opt/popcorntime/ && ./Popcorn-Time
+
+
+
+

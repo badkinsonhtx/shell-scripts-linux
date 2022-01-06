@@ -1,0 +1,9 @@
+#! /bin/bash
+
+cd /home/bart_simp/visual_studio/bin/
+
+./code
+
+cd /home/bart_simp/.vscode/
+
+

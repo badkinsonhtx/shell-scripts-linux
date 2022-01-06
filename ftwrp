@@ -1,0 +1,11 @@
+#! /bin/bash
+
+cd /home/bart_simp/OnePlus_6/9.0.9-OnePlus6Oxygen_22_OTA_034_all_1909112343_dd26-FASTBOOT/
+
+sudo fastboot flash boot twrp-3.2.3-x_blu_spark_v9.91_op6.img
+
+
+
+
+
+

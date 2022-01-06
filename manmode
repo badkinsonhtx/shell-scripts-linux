@@ -1,0 +1,5 @@
+#! /bin/bash
+
+#Simple script to return wifi adaptor to type managed
+
+sudo airmon-ng stop wlan0mon

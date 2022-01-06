@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cd /home/bart_simp/.local/sites/pycharm-community-2021.2.3/bin/
+
+./pycharm.sh

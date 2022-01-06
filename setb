@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd ~/Android/Sdk/platform-tools/
+
+sudo fastboot --set-active=b
+
+

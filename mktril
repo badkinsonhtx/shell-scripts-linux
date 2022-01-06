@@ -1,0 +1,16 @@
+#! /bin/bash
+
+cd /home/bart_simp/Downloads/Mortal\ Kombat\ Trilogy/ 
+
+cd MKTRIL
+
+echo "Test you might!!"
+
+sleep2
+
+echo "Finish him!!!"
+
+sleep1
+
+dosbox MKTRIL.EXE
+

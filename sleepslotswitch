@@ -1,0 +1,9 @@
+#! /bin/bash
+
+sudo fastboot --set-active=b
+
+sleep 30 
+
+sudo fastboot --set-active=a
+
+

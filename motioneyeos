@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cd /home/bart_simp/bin/
+
+sudo ./writeimage.sh -d /dev/sdc -i "/home/bart_simp/Downloads/motioneyeos-raspberrypi-20200606.img" -n 'MarkZuckerburg:$toph8ingandhakingme2211DACPT9CT3U3W379CME7345459'
+

@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# see whats going on port 443
+
+sudo lsof -i:443
+
+

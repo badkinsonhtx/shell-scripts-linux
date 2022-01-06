@@ -1,0 +1,7 @@
+#! /bin/bash
+
+sudo netstat -ntpul
+
+sudo netstat -aslpt && sudo netstat -a --numeric-users
+
+sudo netstat -np

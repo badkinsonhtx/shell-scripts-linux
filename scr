@@ -1,0 +1,8 @@
+#! /bin/bash
+
+cd /home/bart_simp/bin/
+
+echo '#!' $(which bash) > "$1" && sudo chmod +x "$1" && vim "$1"
+
+
+
